@@ -1,0 +1,26 @@
+# Entry routing definition
+hd_entry.settings_tab:
+  route_name: hd_entry.settings
+  title: 'Settings'
+  base_route: hd_entry.settings
+
+entity.hd_entry.canonical:
+  route_name: entity.hd_entry.canonical
+  base_route: entity.hd_entry.canonical
+  title: 'View'
+
+entity.hd_entry.edit_form:
+  route_name: entity.hd_entry.edit_form
+  base_route: entity.hd_entry.canonical
+  title: 'Edit'
+
+entity.hd_entry.version_history:
+  route_name: entity.hd_entry.version_history
+  base_route: entity.hd_entry.canonical
+  title: 'Revisions'
+
+entity.hd_entry.delete_form:
+  route_name:  entity.hd_entry.delete_form
+  base_route:  entity.hd_entry.canonical
+  title: Delete
+  weight: 10

@@ -1,0 +1,22 @@
+{#
+/**
+ * @file hd_entry.html.twig
+ * Default theme implementation to present Entry data.
+ *
+ * This template is used when viewing Entry pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_hd_entry()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('hd_entry') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

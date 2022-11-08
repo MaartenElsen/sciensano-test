@@ -1,0 +1,20 @@
+uuid: 5fdaf4ac-c95d-4a71-9aba-dccfc0768078
+langcode: en
+status: true
+dependencies:
+  module:
+    - sciensano_entry
+  theme:
+    - olivero
+id: entryreactblock
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: entry_react_block
+settings:
+  id: entry_react_block
+  label: 'Entry react block'
+  label_display: visible
+  provider: sciensano_entry
+visibility: {  }

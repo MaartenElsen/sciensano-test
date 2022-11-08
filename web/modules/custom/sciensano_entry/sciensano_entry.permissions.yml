@@ -1,0 +1,31 @@
+add entry entities:
+  title: 'Create new Entry entities'
+
+administer entry entities:
+  title: 'Administer Entry entities'
+  description: 'Allow to access the administration form to configure Entry entities.'
+  restrict access: true
+
+delete entry entities:
+  title: 'Delete Entry entities'
+
+edit entry entities:
+  title: 'Edit Entry entities'
+
+view published entry entities:
+  title: 'View published Entry entities'
+
+view unpublished entry entities:
+  title: 'View unpublished Entry entities'
+
+view all entry revisions:
+  title: 'View all Entry revisions'
+
+revert all entry revisions:
+  title: 'Revert all Entry revisions'
+  description: 'Role requires permission <em>view Entry revisions</em> and <em>edit rights</em> for entry entities in question or <em>administer entry entities</em>.'
+
+delete all entry revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Entry revisions</em> and <em>delete rights</em> for entry entities in question or <em>administer entry entities</em>.'
+

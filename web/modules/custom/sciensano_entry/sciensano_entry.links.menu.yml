@@ -1,0 +1,14 @@
+
+# Entry menu items definition
+entity.hd_entry.collection:
+  title: 'Entry list'
+  route_name: entity.hd_entry.collection
+  description: 'List Entry entities'
+  parent: system.admin_structure
+  weight: 100
+
+hd_entry.admin.structure.settings:
+  title: 'Entry settings'
+  description: 'Configure Entry entities'
+  route_name: hd_entry.settings
+  parent: system.admin_structure

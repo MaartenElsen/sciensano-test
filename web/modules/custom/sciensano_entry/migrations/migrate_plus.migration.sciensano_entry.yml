@@ -1,0 +1,14 @@
+id: sciensano_entry
+label: 'Sciensano entry migration'
+
+source:
+  plugin: csv
+  path: modules/custom/sciensano_entry/assets/entries.csv
+  ids: [id]
+
+process:
+  title: title
+  data: data
+
+destination:
+  plugin: 'entity:hd_entry'

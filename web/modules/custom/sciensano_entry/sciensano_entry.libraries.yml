@@ -1,0 +1,11 @@
+# Should be added to the /web/libraries folder and called by hook_library_info_alter().
+react:
+  version: 1.x
+  css:
+    theme:
+      react/css/main.dd583d66.css: {}
+  js:
+    react/js/main.245a3917.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

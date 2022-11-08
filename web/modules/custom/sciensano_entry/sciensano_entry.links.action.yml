@@ -1,0 +1,5 @@
+entity.hd_entry.add_form:
+  route_name: entity.hd_entry.add_form
+  title: 'Add Entry'
+  appears_on:
+    - entity.hd_entry.collection
